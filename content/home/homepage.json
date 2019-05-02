@@ -1,19 +1,49 @@
 {
   "title": "Home",
+  "welcomeTitle": "Hello !",
+  "welcomeEmoji": "👋",
   "content": "intro.md",
-  "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+  "projectTitle": "Projects I have worked on",
+  "projects": [{
+    "title": "WanderWhale 🐳",
+    "copy": "A travel magazine for India.",
+    "image": "../images/projects/whale.png",
+    "path": "/work"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "SuperSub ⚽️",
+    "copy": "Live soccer fantasy football game.",
+    "image": "../images/projects/super.png",
+    "path": "/work"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "ChatWoot 💬",
+    "copy": "Live chat widget for customer support.",
+    "image": "../images/projects/woot.png",
+    "path": "/work"
+  },
+  {
+    "title": "Fedo 💊",
+    "copy": "Medicine delivery & wellness app.",
+    "image": "../images/projects/fedo.png",
+    "path": "/work"
+  },
+  {
+    "title": "Ripple 🎬",
+    "copy": "Social movie reviews.",
+    "image": "../images/projects/ripple.png",
+    "path": "/work"
+  },
+  {
+    "title": "FindAuto 🚕",
+    "copy": "Uber for Auto Rickshaws.",
+    "image": "../images/projects/findauto.png",
+    "path": "/work"
+  },
+  {
+    "title": "Drishti'13 🎊",
+    "copy": "Promotional website for my college tech-fest.",
+    "image": "../images/projects/drishti.png",
+    "path": "/work"
   }]
 }

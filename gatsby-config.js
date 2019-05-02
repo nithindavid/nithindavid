@@ -29,5 +29,16 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Quicksand`,
+            variants: [`300`, `400`, `500`, `700`]
+          },
+        ],
+      },
+    },
   ],
 };
