@@ -9,7 +9,7 @@ export const Title = styled.span`
   font-family: 'Quicksand';
   font-weight: 600;
 `;
-  
+
 export const Wrapper = styled.a`
   display: block;
   cursor: pointer;

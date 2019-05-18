@@ -8,7 +8,14 @@ export const Container = styled.nav`
 
     li {
       text-transform: uppercase;
-      font-size: 1.3rem;
+      font-size: 1.6rem;
+
+      a {
+        letter-spacing: 1px;
+        font-family: 'Quicksand';
+        font-weight: 900;
+        color: #fe623a;
+      }
 
       & + li {
         margin-left: 2rem;

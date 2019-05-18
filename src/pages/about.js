@@ -2,19 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
-import Box from 'components/box';
+import Article from 'components/article';
 import Head from 'components/head';
 
 const About = ({ data }) => (
   <Layout>
     <Head pageTitle={data.aboutJson.title} />
-    <Box>
+    <Article>
       <div
         dangerouslySetInnerHTML={{
           __html: data.aboutJson.content.childMarkdownRemark.html,
         }}
       />
-    </Box>
+    </Article>
   </Layout>
 );
 

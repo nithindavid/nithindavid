@@ -3,47 +3,76 @@
   "welcomeTitle": "Hello !",
   "welcomeEmoji": "👋",
   "content": "intro.md",
-  "projectTitle": "Projects I have worked on",
-  "projects": [{
-    "title": "WanderWhale 🐳",
-    "copy": "A travel magazine for India.",
-    "image": "../images/projects/whale.png",
-    "path": "/work"
+  "projects": {
+    "title": "Projects 👇",
+    "items": [{
+      "title": "WanderWhale 🐳",
+      "copy": "A travel magazine for India.",
+      "image": "../images/projects/whale.png",
+      "path": "/work"
+    },
+    {
+      "title": "RockoPay 💸",
+      "copy": "Offline payments powered by stripe.",
+      "image": "../images/projects/rockopay.png",
+      "path": "/work"
+    },
+    {
+      "title": "SuperSub ⚽️",
+      "copy": "Live soccer fantasy football game.",
+      "image": "../images/projects/super.png",
+      "path": "/work"
+    },
+    {
+      "title": "ChatWoot 💬",
+      "copy": "Live chat widget for customer support.",
+      "image": "../images/projects/woot.png",
+      "path": "/work"
+    },
+    {
+      "title": "Fedo 💊",
+      "copy": "Medicine delivery & wellness app.",
+      "image": "../images/projects/fedo.png",
+      "path": "/work"
+    },
+    {
+      "title": "Ripple 🎬",
+      "copy": "Social movie reviews.",
+      "image": "../images/projects/ripple.png",
+      "path": "/work"
+    },
+    {
+      "title": "FindAuto 🚕",
+      "copy": "Uber for Auto Rickshaws.",
+      "image": "../images/projects/findauto.png",
+      "path": "/work"
+    },
+    {
+      "title": "Drishti'13 🎊",
+      "copy": "Promotional website for my college tech-fest.",
+      "image": "../images/projects/drishti.png",
+      "path": "/work"
+    }]
   },
-  {
-    "title": "SuperSub ⚽️",
-    "copy": "Live soccer fantasy football game.",
-    "image": "../images/projects/super.png",
-    "path": "/work"
-  },
-  {
-    "title": "ChatWoot 💬",
-    "copy": "Live chat widget for customer support.",
-    "image": "../images/projects/woot.png",
-    "path": "/work"
-  },
-  {
-    "title": "Fedo 💊",
-    "copy": "Medicine delivery & wellness app.",
-    "image": "../images/projects/fedo.png",
-    "path": "/work"
-  },
-  {
-    "title": "Ripple 🎬",
-    "copy": "Social movie reviews.",
-    "image": "../images/projects/ripple.png",
-    "path": "/work"
-  },
-  {
-    "title": "FindAuto 🚕",
-    "copy": "Uber for Auto Rickshaws.",
-    "image": "../images/projects/findauto.png",
-    "path": "/work"
-  },
-  {
-    "title": "Drishti'13 🎊",
-    "copy": "Promotional website for my college tech-fest.",
-    "image": "../images/projects/drishti.png",
-    "path": "/work"
-  }]
+  "designs": {
+    "title": "Designs 🖌",
+    "content": "design.md",
+    "items": [{
+      "image": "../images/designs/thumbs/navya.png",
+      "newTab": true,
+      "path": "https://dribbble.com/shots/6419849-Wedding-illustration-bride-and-groom"
+    }, {
+      "image": "../images/designs/thumbs/letteratti.png",
+      "newTab": true,
+      "path": "https://dribbble.com/shots/6419789-Mobile-Word-game-UI"
+    }, {
+      "image": "../images/designs/thumbs/nafisa.png",
+      "newTab": true,
+      "path": "https://drive.google.com/file/d/1DB2dw3vRpnSzu4qqHqyiqOHzj7TKxI-V/view"
+    }, {
+      "image": "../images/designs/thumbs/joseph.png",
+      "newTab": true,
+      "path": "https://dribbble.com/shots/6419754-Specky-boy-illustration"
+    }]
+  }
 }

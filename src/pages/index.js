@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Projects from 'components/projects';
-import IOExample from 'components/io-example';
+import Designs from 'components/designs';
 import { graphql } from 'gatsby';
 import pageStyles from './index.module.css';
 
@@ -24,11 +24,15 @@ const Index = ({ data }) => (
       </Box>
     </header>
     <Projects
-      title={data.homeJson.projectTitle}
-      items={data.homeJson.projects}
+      title={data.homeJson.projects.title}
+      items={data.homeJson.projects.items}
     />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
+    <Designs
+      title={data.homeJson.designs.title}
+      content={data.homeJson.designs.content.childMarkdownRemark.rawMarkdownBody}
+      items={data.homeJson.designs.items}
+    />
+    <div style={{ height: '20vh' }} />
   </Layout>
 );
 
@@ -43,7 +47,6 @@ export const query = graphql`
     homeJson {
       title
       welcomeTitle
-      projectTitle
       welcomeEmoji
       content {
         childMarkdownRemark {
@@ -53,12 +56,33 @@ export const query = graphql`
       }
       projects {
         title
-        copy
-        path
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
+        items {
+          title
+          copy
+          path
+          image {
+            childImageSharp {
+              fluid(maxHeight: 500, quality: 90) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
+      }
+      designs {
+        title
+        content {
+          childMarkdownRemark {
+            rawMarkdownBody
+          }
+        }
+        items {
+          path
+          image {
+            childImageSharp {
+              fluid(maxHeight: 500, quality: 90) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
             }
           }
         }
