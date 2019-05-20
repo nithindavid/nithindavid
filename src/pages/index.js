@@ -5,6 +5,7 @@ import Box from 'components/box';
 import Title from 'components/title';
 import Projects from 'components/projects';
 import Designs from 'components/designs';
+import Footer from 'components/footer';
 import { graphql } from 'gatsby';
 import pageStyles from './index.module.css';
 
@@ -32,7 +33,11 @@ const Index = ({ data }) => (
       content={data.homeJson.designs.content.childMarkdownRemark.rawMarkdownBody}
       items={data.homeJson.designs.items}
     />
-    <div style={{ height: '20vh' }} />
+    <Footer
+      title={data.homeJson.footer.content.childMarkdownRemark.rawMarkdownBody}
+      mail={data.homeJson.footer.mail}
+      credits={data.homeJson.footer.credits}
+    />
   </Layout>
 );
 
@@ -84,6 +89,21 @@ export const query = graphql`
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
+          }
+        }
+      }
+      footer {
+        mail
+        content {
+          childMarkdownRemark {
+            rawMarkdownBody
+          }
+        }
+        credits {
+          title
+          items {
+            name
+            link
           }
         }
       }

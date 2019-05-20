@@ -4,7 +4,7 @@
   "welcomeEmoji": "👋",
   "content": "intro.md",
   "projects": {
-    "title": "Projects 👇",
+    "title": "Projects 🔥",
     "items": [{
       "title": "WanderWhale 🐳",
       "copy": "A travel magazine for India.",
@@ -81,5 +81,22 @@
       "newTab": true,
       "path": "https://dribbble.com/shots/6419754-Specky-boy-illustration"
     }]
+  },
+  "footer": {
+    "content": "footer.md",
+    "mail": "webofnithin@gmail.com",
+    "credits": {
+      "title": "Powered By",
+      "items": [{
+        "name": "Gatsby",
+        "link": "https://www.gatsbyjs.org"
+      }, {
+        "name": "Universal",
+        "link": "https://github.com/fabe/gatsby-universal"
+      }, {
+        "name": "Netlify",
+        "link": "https://www.netlify.com"
+      }]
+    }
   }
 }
