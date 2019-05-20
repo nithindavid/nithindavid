@@ -9,49 +9,56 @@
       "title": "WanderWhale 🐳",
       "copy": "A travel magazine for India.",
       "image": "../images/projects/whale.png",
-      "path": "/work"
+      "path": "https://wanderwhale.com/weekend-getaways-from-bangalore",
+      "newTab": true
     },
     {
       "title": "RockoPay 💸",
       "copy": "Offline payments powered by stripe.",
       "image": "../images/projects/rockopay.png",
-      "path": "/work"
+      "path": "#"
     },
     {
       "title": "SuperSub ⚽️",
       "copy": "Live soccer fantasy football game.",
       "image": "../images/projects/super.png",
-      "path": "/work"
+      "path": "#"
     },
     {
       "title": "ChatWoot 💬",
       "copy": "Live chat widget for customer support.",
       "image": "../images/projects/woot.png",
-      "path": "/work"
+      "path": "https://chatwoot.com",
+      "newTab": true
     },
     {
       "title": "Fedo 💊",
       "copy": "Medicine delivery & wellness app.",
       "image": "../images/projects/fedo.png",
-      "path": "/work"
+      "path": "fedo.ai",
+      "newTab": true
     },
     {
       "title": "Ripple 🎬",
       "copy": "Social movie reviews.",
       "image": "../images/projects/ripple.png",
-      "path": "/work"
+      "path": "http://bit.ly/playripple",
+      "newTab": true
     },
     {
       "title": "FindAuto 🚕",
       "copy": "Uber for Auto Rickshaws.",
       "image": "../images/projects/findauto.png",
-      "path": "/work"
+      "path": "https://www.youtube.com/watch?v=s9ZS8Px15VM",
+      "newTab": true
     },
     {
       "title": "Drishti'13 🎊",
       "copy": "Promotional website for my college tech-fest.",
       "image": "../images/projects/drishti.png",
-      "path": "/work"
+      "path": "http://bit.ly/cetdrishti",
+      "newTab": true
+
     }]
   },
   "designs": {
