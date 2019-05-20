@@ -62,6 +62,7 @@ export const query = graphql`
       projects {
         title
         items {
+          newTab
           title
           copy
           path
@@ -82,6 +83,7 @@ export const query = graphql`
           }
         }
         items {
+          newTab
           path
           image {
             childImageSharp {
