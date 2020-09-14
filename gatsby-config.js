@@ -30,14 +30,21 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Quicksand`,
-            variants: [`300`, `400`, `500`, `700`]
-          },
+          `Quicksand:300,400,500,700`, // you can also specify font weights and styles
         ],
+        display: 'swap',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-chatwoot`,
+      options: {
+        baseUrl: 'https://chatwoot-mobile-app-test.herokuapp.com', // Required
+        websiteToken: 'o8uTRTCKYcuKqWcRcNirVhdE', // Required
+        includeInDevelopment: true, // Optional
+        chatwootSettings: {}, // Optional
       },
     },
   ],
